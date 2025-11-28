@@ -5,96 +5,96 @@
 <h1 align="center">Cybersecurity Notes — Summary</h1>
 
 <p align="center">
-  Foundations of Blue Team, Defense, Threat Analysis & Network Security.<br>
-  Clean, organized notes from my cybersecurity learning journey.
+  Foundations of Blue Team, Defense, Threat Analysis, and Network Security.<br>
+  Clean and organized notes from my cybersecurity learning journey.
 </p>
 
 ---
 
-## 📌 1. Introduction
-Cybersecurity is a critical part of modern technology.  
-Whether in:
+## 1. Introduction
+Cybersecurity is a core part of modern technology.  
+Professionals in this field work with:
 
 - Security Operations Centers (SOC)
 - Blue Team defensive operations
-- Threat hunting & analysis
-- Penetration testing
-- Network security engineering
-- Incident response teams
+- Threat hunting and malware analysis
+- Penetration testing and red team operations
+- Network and system security engineering
+- Incident response and digital forensics
 
-These notes summarize my learning from:
+These notes summarize what I have learned from:
 
 - TryHackMe rooms  
 - Blue/Red Team labs  
-- SOC & SIEM simulations  
-- Networking + Linux + Windows security practice  
+- SOC and SIEM simulations  
+- Networking, Linux, and Windows security practice  
 - University courses  
 
 ---
 
-## 🛡️ 2. Core Cybersecurity Concepts
+## 2. Core Cybersecurity Concepts
 
-### ### Confidentiality, Integrity, Availability (CIA Triad)
-- **Confidentiality** → Ensuring only authorized users can access data  
-- **Integrity** → Preventing unauthorized data modification  
-- **Availability** → Ensuring systems remain operational  
+### CIA Triad
+- Confidentiality  
+- Integrity  
+- Availability  
+
+### Zero Trust Model
+Every request must be authenticated and authorized.  
+No user or device is trusted by default.
 
 ### Attack Surface
-All possible points where an attacker can try to enter a system.
-
-### Zero Trust
-“Never trust, always verify.”  
-Every request must be authenticated and authorized.
+All possible paths an attacker can use to enter a system.
 
 ---
 
-## 🛰️ 3. Threat Landscape
+## 3. Threat Landscape
 
 ### Common Attack Types
-- **Phishing**
-- **Malware**
-- **Ransomware**
-- **Brute-force attacks**
-- **MITM (Man in the Middle)**
-- **SQL Injection**
-- **Privilege escalation**
-- **Social engineering**
+- Phishing  
+- Malware  
+- Ransomware  
+- SQL Injection  
+- Brute-force attacks  
+- Privilege escalation  
+- Man-in-the-Middle (MITM)  
+- Social Engineering  
 
 ### Indicators of Compromise (IoCs)
 - Suspicious IP addresses  
-- Unusual login behavior  
-- Large outbound traffic  
+- Abnormal login behavior  
+- Unusual network traffic  
 - Unknown processes or binaries  
 
 ---
 
-## 🏢 4. Blue Team / Defense
+## 4. Blue Team and Defensive Operations
 
-### Defensive Security Tasks
-- Monitoring systems & logs  
-- Detecting malicious activity  
-- Creating alerts & correlation rules  
+### Defensive Tasks
+- Monitoring system activity  
+- Analyzing logs  
+- Detecting threats  
 - Blocking malicious traffic  
 - Investigating incidents  
-- Documenting findings  
+- Writing documentation and reports  
 
 ### Monitoring Tools
-- SIEM Platforms (Splunk, ELK, Wazuh)  
+- SIEM platforms (Splunk, ELK, Wazuh)  
 - Sysmon  
 - Wireshark  
 - Zeek  
 
 ---
 
-## 📝 5. SOC Fundamentals (Security Operations Center)
+## 5. SOC Fundamentals (Security Operations Center)
 
 ### SOC Tiers
-- **Tier 1** — Alert analysis  
-- **Tier 2** — Deep investigation  
-- **Tier 3** — Threat hunting  
-- **Tier 4** — Engineering & automation  
+- Tier 1: Alert analysis  
+- Tier 2: Deep investigation  
+- Tier 3: Threat hunting  
+- Tier 4: Security engineering and automation  
 
-### Sample SIEM Log Alert
+### Example SIEM Alert
 
 alert: suspicious_traffic_detected
 src_ip: 185.xxx.xx
@@ -104,14 +104,14 @@ action: blocked
 
 ---
 
-## 🧠 6. Network Security
+## 6. Network Security
 
-### Key Concepts
+### Key Topics
 - TCP/IP  
-- Ports & protocols  
+- Ports and protocols  
 - Firewalls  
+- IDS and IPS  
 - VPN  
-- IDS/IPS  
 - Packet analysis  
 
 ### Tools
@@ -122,19 +122,23 @@ action: blocked
 
 ---
 
-## 🐧 7. Linux Security Basics
+## 7. Linux Security
+Essential topics:
+
 - File permissions  
-- Users & groups  
+- Users and groups  
 - SSH hardening  
 - Syslog monitoring  
 - Fail2ban  
-- Sudo abuses detection  
+- Detecting suspicious sudo activity  
 
 ---
 
-## 🪟 8. Windows Security Basics
+## 8. Windows Security
+Important concepts:
+
 - Event Viewer  
-- Active Directory fundamentals  
+- Active Directory basics  
 - PowerShell monitoring  
 - Logon types  
 - Sysmon rules  
@@ -142,15 +146,23 @@ action: blocked
 
 ---
 
-## 🧪 9. Digital Forensics & Incident Response
+## 9. Digital Forensics and Incident Response
+
+### DFIR Topics
 - Memory forensics  
 - Disk forensics  
-- Timeline creation  
-- Malware analysis basics  
+- Timeline analysis  
+- Malware behavior analysis  
+
+### Tools
+- Volatility  
+- Autopsy  
+- FTK Imager  
+- CyberChef  
 
 ---
 
-## 🧰 10. Essential Tools
+## 10. Essential Cybersecurity Tools
 - Nmap  
 - Wireshark  
 - Sysmon  
@@ -161,10 +173,10 @@ action: blocked
 
 ---
 
-## ⭐ 11. TryHackMe Rooms I Used
+## 11. TryHackMe Rooms Used
 - Blue  
 - Wazuh  
-- Investigating Windows  
+- Investigation-based rooms  
 - Network Security  
 - SOC Level 1  
 - Linux Fundamentals  
@@ -172,20 +184,21 @@ action: blocked
 
 ---
 
-## 📚 12. Purpose of This Repo
-This repository is designed to track my cybersecurity journey and consolidate all essential notes across:
+## 12. Purpose of This Repository
+This repository consolidates my cybersecurity knowledge across:
 
-- Blue Team  
-- SOC  
-- Networking  
-- Linux / Windows Security  
-- Threat Hunting  
-- Forensics  
+- SOC operations  
+- Blue Team techniques  
+- Networking fundamentals  
+- Linux and Windows security  
+- Threat hunting  
+- Digital forensics  
+- Practical labs and exercises  
 
-Useful for students, beginners, and anyone preparing for cybersecurity roles.
+The goal is to create a reference that reflects my progress and supports my future career in cybersecurity.
 
 ---
 
 <p align="center">
-  <b>Maintained by Firas Belarbi — Cybersecurity Student</b>
+  Maintained by Firas Belarbi — Cybersecurity Student
 </p>
