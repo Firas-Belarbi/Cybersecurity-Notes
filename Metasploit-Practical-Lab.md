@@ -6,7 +6,6 @@
 
 **Author:** Firas Belarbi  
 **Source:** TryHackMe Metasploit room  
-**Date:** (Add date)
 
 ---
 
